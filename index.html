@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator Js King</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/tip_calculator.jpg">
+</head>
+<body>
+    
+    <div class="containner">
+        <h1>Tip calculator</h1>
+        <p>Enter The Bill Amount And Tip Percentage To Calculate The Total</p>
+        <form>
+            <div class="amount">
+                <label for="inp_mount">Bill Amount: </label>
+                <input type="text" id="inp_mount" name="mount">
+            </div>
+            <div class="percentage">
+                <label for="inp_per">Tip Percentage: </label>
+                <input type="text" id="inp_per" name="perc">
+            </div>
+            <button id="calc">Calculate</button>
+        </form>
+        <div>Total: <span id="total"></span></div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
